@@ -1,4 +1,4 @@
-# Cifragem Dupla com AES-256-CBC usando OpenSSL
+# 🚀 Cifragem Dupla com AES-256-CBC usando OpenSSL
 
 Este script implementa a cifragem dupla de uma mensagem usando o algoritmo **AES-256-CBC** com o OpenSSL através de chamadas de linha de comando via Python.
 
@@ -6,7 +6,7 @@ Este script implementa a cifragem dupla de uma mensagem usando o algoritmo **AES
 
 O objetivo deste script é demonstrar como a cifragem de um texto pode gerar resultados diferentes quando realizada duas vezes consecutivas com a mesma chave. A primeira cifragem gera uma saída cifrada, e a segunda cifragem é realizada sobre essa saída, resultando em um texto cifrado completamente diferente.
 
-## Dependências
+## 🔧 Dependências
 
 - Python 3.x
 - OpenSSL instalado no sistema
@@ -16,13 +16,13 @@ O objetivo deste script é demonstrar como a cifragem de um texto pode gerar res
 
 O script realiza os seguintes passos:
 
-1. **Primeira Cifragem**: 
+1. **Primeira Cifragem 🔐**: 
    - O texto original é cifrado utilizando o algoritmo `AES-256-CBC` com a chave fornecida, usando o OpenSSL. A saída é um texto cifrado em base64.
 
-2. **Segunda Cifragem**:
+2. **Segunda Cifragem 🔒**:
    - O texto cifrado da primeira cifragem é passado como entrada para uma nova cifragem, também utilizando o algoritmo `AES-256-CBC` e a mesma chave. A saída será uma nova string cifrada, completamente diferente da primeira.
 
-3. **Comparação**:
+3. **Comparação 🔍**: 
    - O script compara a saída das duas cifragens e imprime se os resultados são iguais ou diferentes.
 
 ## Estrutura do Código
@@ -34,7 +34,7 @@ O código Python utiliza a biblioteca `subprocess` para executar comandos do Ope
 3. Exibe o resultado da primeira e segunda cifragem.
 4. Compara os resultados e informa se eles são iguais ou diferentes.
 
-## Como Usar
+## 🧐 Como Usar
 
 1. **Preparar o ambiente**:
    - Certifique-se de que o OpenSSL esteja instalado no seu sistema.
