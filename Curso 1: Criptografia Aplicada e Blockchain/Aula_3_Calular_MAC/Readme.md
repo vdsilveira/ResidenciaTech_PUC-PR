@@ -48,5 +48,6 @@ python3 Gerar_HMAC.py
 Um HMAC é uma função de autenticação que utiliza uma função hash criptográfica (neste caso, SHA-256) combinada com uma chave secreta. Ele é utilizado para garantir que:
 
 📦 O conteúdo da mensagem não foi alterado (integridade)
+
 ✅ A mensagem foi enviada por alguém que conhece a chave (autenticidade)
 
