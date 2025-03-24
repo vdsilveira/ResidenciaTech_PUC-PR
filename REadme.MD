@@ -6,7 +6,9 @@ Este repositório contém os materiais, códigos e anotações desenvolvidos por
 
 ## 📘 Sobre a Residência
 
-A residência tem como objetivo o desenvolvimento de competências para construção de sistemas blockchain inteligentes utilizando protocolos criptográficos, contratos inteligentes seguros, e tecnologias de segurança e privacidade avançadas.
+A residência tem como objetivo o desenvolvimento de competências para a construção de sistemas inteligentes baseados em blockchain, utilizando protocolos criptográficos avançados, contratos inteligentes seguros e tecnologias de segurança e privacidade de última geração.
+
+Esse programa é parte de uma iniciativa da Pontifícia Universidade Católica do Paraná (PUC-PR) e do Centro de Pesquisa e Desenvolvimento em Telecomunicações (CPQD), com coordenação da Softex e apoio do Ministério da Ciência, Tecnologia e Inovação (MCTI).
 
 ### 🧠 Habilidades Desenvolvidas
 
