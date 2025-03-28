@@ -33,7 +33,7 @@ def Multi_crifragem(texto, chave):
             input=texto, check=True, text=True, capture_output=True
         )
         texto_cifrado_3 = Cifragem_CFB.stdout.strip()
-        print("\n\n ✅ Modulo CBC - Cifragem realizada com sucesso!")
+        print("\n\n ✅ Modulo CFB - Cifragem realizada com sucesso!")
         print(f"\n Texto cifrado:  ➡️ {texto_cifrado_3}")
 
           # cifragem OFB
