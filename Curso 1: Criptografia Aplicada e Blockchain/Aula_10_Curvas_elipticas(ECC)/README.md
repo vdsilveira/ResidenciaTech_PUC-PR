@@ -81,10 +81,10 @@ pub:
 ASN1 OID: secp256k1
 
 🔑 Chave privada (Ethereum): 
-6139398ce982d51bebc9b2f0a8e6eaaaa234d7d3290a34c4db86a0c0f5b3bf97
+734448a91303a898e6acc9f72b5c80733ef11688b2216c0c91d839976f5059f2
 
 📬 Endereço Ethereum: 
-0x2ac678a0b7991c7d39c9b8b2bb9f0a73cfddf9b3
+0xaf886700782607480e01F6998635Fedd38d45b55
 
 ```
 ---

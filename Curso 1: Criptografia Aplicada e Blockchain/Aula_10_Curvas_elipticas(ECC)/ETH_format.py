@@ -2,6 +2,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 from ecdsa import SigningKey, SECP256k1
 import sha3  # keccak256
+from eth_keys import keys
 
 # Lê o arquivo PEM
 with open("PrivKey.pem", "rb") as key_file:
@@ -20,13 +21,6 @@ private_key_hex = private_key_bytes.hex()
 print("🔑 Chave privada (Ethereum):", private_key_hex)
 
 # Gerar chave pública e endereço Ethereum
-sk = SigningKey.from_string(private_key_bytes, curve=SECP256k1)
-vk = sk.verifying_key
-public_key_bytes = b'\x04' + vk.to_string()
 
-keccak = sha3.keccak_256()
-keccak.update(public_key_bytes)
-address = keccak.digest()[-20:]
-
-eth_address = "0x" + address.hex()
-print("📬 Endereço Ethereum:", eth_address)
+private_key = keys.PrivateKey(bytes.fromhex(private_key_hex))
+print("📬 Endereço Ethereum:", private_key.public_key.to_checksum_address())
