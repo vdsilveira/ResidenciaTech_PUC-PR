@@ -7,7 +7,7 @@ Este diretório contém dois scripts principais que demonstram o uso de curvas e
 ## 📁 Estrutura do Projeto
 ├── keygen_Openssl.py  **# Gera par de chaves ECC com OpenSSL (formato PEM)**
 
-├── ETH_format.py  **# Converte chave privada gerada para endereço Ethereum**
+├── ETH_format.py  **# Converte chave privada gerada para hexadecimal compatível com Ethereum**
 
 ├── PrivKey.pem **# Chave privada gerada em formato PEM**
 
