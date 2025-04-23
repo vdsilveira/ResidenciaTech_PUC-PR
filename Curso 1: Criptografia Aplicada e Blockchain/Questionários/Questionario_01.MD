@@ -2,7 +2,7 @@
 
 ## 1. Em relação à criptoanálise, qual das afirmações abaixo é falsa?
 
-**❌ Resposta correta:** Ataques de força bruta sempre são computacionalmente viáveis, independentemente do tamanho da chave.
+**✅  Resposta correta:** Ataques de força bruta sempre são computacionalmente viáveis, independentemente do tamanho da chave.
 
 🔴 **Explicação:** Essa afirmação é falsa, pois ataques de força bruta se tornam inviáveis com o aumento do tamanho da chave (por exemplo, chaves de 256 bits).
 
@@ -10,7 +10,7 @@
 
 ## 2. Qual das opções NÃO representa uma medida eficaz para mitigar riscos em um HMAC com função hash vulnerável?
 
-**❌ Resposta correta:** Reduzir o tamanho das chaves secretas utilizadas no HMAC para diminuir a carga de processamento e aumentar a velocidade de geração dos MACs.
+**✅  Resposta correta:** Reduzir o tamanho das chaves secretas utilizadas no HMAC para diminuir a carga de processamento e aumentar a velocidade de geração dos MACs.
 
 🔴 **Explicação:** Essa medida compromete ainda mais a segurança. O correto seria aumentar ou manter o tamanho da chave, não reduzi-lo.
 
@@ -20,7 +20,7 @@
 
 **✅ Resposta correta:** A resistência à colisão garante que não seja possível encontrar duas mensagens diferentes com o mesmo hash.
 
-✅ **Explicação:** Essa é exatamente a definição de resistência à colisão.
+🔴 **Explicação:** Essa é exatamente a definição de resistência à colisão.
 
 ---
 
@@ -38,7 +38,7 @@
 
 **✅ Resposta correta:** 2⁶⁴ mensagens
 
-✅ **Explicação:** Pelo paradoxo do aniversário, a probabilidade de colisão atinge 50% com cerca de √(2ⁿ) entradas distintas. Para 128 bits, isso é 2⁶⁴.
+🔴 **Explicação:** Pelo paradoxo do aniversário, a probabilidade de colisão atinge 50% com cerca de √(2ⁿ) entradas distintas. Para 128 bits, isso é 2⁶⁴.
 
 ---
 
@@ -46,7 +46,7 @@
 
 **✅ Resposta correta:** Combinar a mensagem com uma chave secreta para gerar um valor que garante tanto a integridade quanto a autenticidade.
 
-✅ **Explicação:** MACs não fornecem confidencialidade, apenas autenticidade e integridade.
+🔴 **Explicação:** MACs não fornecem confidencialidade, apenas autenticidade e integridade.
 
 ---
 
@@ -54,13 +54,13 @@
 
 **✅ Resposta correta:** Uma função de hash criptográfica deve possuir propriedades como resistência à colisão, resistência à pré-imagem e efeito avalanche, enquanto uma função de hash comum pode não garantir essas propriedades.
 
-✅ **Explicação:** Hashes criptográficos têm requisitos adicionais de segurança, ao contrário de hashes comuns como os usados em tabelas de dispersão.
+🔴 **Explicação:** Hashes criptográficos têm requisitos adicionais de segurança, ao contrário de hashes comuns como os usados em tabelas de dispersão.
 
 ---
 
 ## 8. Qual afirmação sobre segurança de MACs é FALSA?
 
-**❌ Resposta correta:** Aumentar o tamanho da chave secreta utilizada em um MAC sempre garante um aumento exponencial na sua segurança.
+**✅  Resposta correta:** Aumentar o tamanho da chave secreta utilizada em um MAC sempre garante um aumento exponencial na sua segurança.
 
 🔴 **Explicação:** A segurança não cresce exponencialmente com o tamanho da chave. Outros fatores como algoritmo e modo de uso também impactam.
 
@@ -68,15 +68,16 @@
 
 ## 9. Em quais cenários o uso de MACs é mais apropriado que criptografia simétrica?
 
-**✅ Resposta correta:** Quando a mensagem precisa ser armazenada em um banco de dados e posteriormente recuperada com garantia de integridade e autenticidade.
+**✅ Resposta correta:** "Quando a mensagem precisa ser enviada para vários destinatários, mas apenas um deles precisa verificar a integridade e autenticidade..
 
-✅ **Explicação:** MAC é útil para verificação de integridade sem a necessidade de manter a mensagem cifrada.
+🔴 **Explicação:** 
+MACs exigem uma chave secreta compartilhada, então apenas quem tem a chave pode verificar a autenticidade. Isso é ideal quando só um destinatário precisa validar a mensagem, mesmo que ela seja enviada a vários.
 
 ---
 
 ## 10. Para uma função de hash resistente à colisões, é garantido que H(x) ≠ H(x') se x ≠ x'?
 
-**❌ Resposta correta:** Falso
+**✅  Resposta correta:** Falso
 
 🔴 **Explicação:** Colisões são matematicamente inevitáveis em funções de hash com saída finita (como 256 bits). A resistência à colisões significa apenas que é difícil encontrá-las, não que elas não existam.
 

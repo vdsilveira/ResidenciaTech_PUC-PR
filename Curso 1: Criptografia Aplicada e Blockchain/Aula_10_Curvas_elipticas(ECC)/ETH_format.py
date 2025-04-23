@@ -18,6 +18,8 @@ private_value = private_numbers.private_value
 private_key_bytes = private_value.to_bytes(32, byteorder='big')
 private_key_hex = private_key_bytes.hex()
 
+
+
 print("🔑 Chave privada (Ethereum):", private_key_hex)
 
 # Gerar chave pública e endereço Ethereum
