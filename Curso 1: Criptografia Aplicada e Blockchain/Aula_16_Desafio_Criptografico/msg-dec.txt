@@ -1,0 +1,1 @@
+Os parâmetros utilizados foram: p = 19 e α = 2, as chaves públicas são ya = 13 e yb = 16

@@ -30,18 +30,21 @@ O repositório está organizado da seguinte forma:
 ```
 ResidenciaTech_PucPR/
 ├── Curso_1_Criptografia_Aplicada_e_Blockchain/
-│   ├── Aula_01_Trocar_msg_criptografada/
-│   ├── Aula_02_CompararHash/
-│   ├── Aula_03_Calcular_MAC/
-│   ├── Aula_04_Cifragem_2x/
-│   ├── Aula_05_Modos_de_Operacao_AES/
-│   ├── Aula_06_Exercicios_AES/
-│   ├── Aula_08_Diffie_Hellman/
-│   ├── Aula_09_RSA/
-│   ├── Aula_10_Curvas_Elipticas_ECC/
+│   ├── Aula_1_Trocar_msg_criptografada/
+│   ├── Aula_2_CompararHash/
+│   ├── Aula_3_Calcular_MAC/
+│   ├── Aula_4_Cifragem_2x/
+│   ├── Aula_5_Modos_de_Operacao_AES/
+│   ├── Aula_6_Exercicios_AES/
+│   ├── Aula_8_Diffie_Hellman/
+│   ├── Aula_9_RSA/
+│   ├── Aula_10_Curvas_elipticas(ECC)/
 │   ├── Aula_11_ECDSA_Signature/
 │   ├── Aula_12_ECDSA_verifySignature/
 │   ├── Aula_13_CertificacaoDigital/
+│   ├── Aula_14_Autoridade_Certificadora(AC)/
+│   ├── Aula_15_TLS/
+│   ├── Aula_16_Desafio_Criptografico/
 │   ├── Questionarios/
 ├── Slides/
 ├── README.md
@@ -79,18 +82,28 @@ ResidenciaTech_PucPR/
 - **Aula 13: Certificação Digital**\
   Estudo de certificados digitais e infraestrutura de chaves públicas (PKI).
 
+- **Aula 14: Autoridade Certificadora (AC)**\
+  Implementação de uma autoridade certificadora para emissão e validação de certificados X.509.
+
+- **Aula 15: TLS**\
+  Análise de conexões TLS, incluindo versão do protocolo, cifras e cadeia de certificação.
+
+- **Aula 16: Desafio Criptográfico**\
+  Resolução de um desafio prático integrando Cifra de César, AES, Diffie-Hellman e verificação de assinaturas digitais.
+
 ---
 
 ## 🧭 Conteúdos Abordados
 
-### Curso 1: Criptografia Aplicada e Blockchain
+### Curso 1: Criptografia Aplicada e Blockchain (Concluído)
 
-- **Algoritmos Criptográficos**: Hashes, MACs, AES, RSA, ECC
+- **Algoritmos Criptográficos**: Hashes, MACs, AES, RSA, ECC, ECDSA
 - **Modos de Operação**: ECB, CBC, OFB, CTR
-- **Protocolos de Segurança**: TLS, SSH, IPsec
+- **Protocolos de Segurança**: TLS, SSH, IPsec, Diffie-Hellman
 - **Blockchain**: Estrutura, transações, algoritmos de consenso (PoW, PoS, PoA, BFT)
 - **Ethereum**: EVM, Solidity, desenvolvimento de dApps
 - **Identidade Descentralizada (DID)**
+- **Certificação Digital**: Certificados X.509, PKI, autoridades certificadoras
 
 ### Curso 2: Criptografia de Próxima Geração
 
@@ -114,6 +127,7 @@ ResidenciaTech_PucPR/
 - **Linguagens**: Python, Solidity
 - **Ferramentas**: OpenSSL, Foundry
 - **Análise de Segurança**: Slither, ferramentas de auditoria de contratos inteligentes
+- **Bibliotecas**: `cryptography`, `pycryptodome`, `sympy`
 
 ---
 
@@ -130,6 +144,34 @@ Desenvolvedor e entusiasta de blockchain, criptografia e segurança.\
 - Documentar as atividades práticas e teóricas da residência
 - Servir como recurso educacional para interessados em criptografia e blockchain
 - Evoluir com novos projetos e módulos ao longo do programa
+
+---
+
+## 🌐 Publicação do Repositório
+
+Para disponibilizar este repositório online e permitir que outros o acessem:
+
+1. **Crie um repositório no GitHub**:
+
+   - Acesse GitHub e crie um novo repositório (ex.: `ResidenciaTech_PucPR`).
+   - Faça o upload da estrutura de pastas e arquivos, incluindo o `README.md`.
+
+2. **Suba os arquivos com Git**:
+
+   ```bash
+   git init
+   git add .
+   git commit -m "Inicializa repositório com materiais da Residência Tecnológica"
+   git remote add origin <URL_DO_REPOSITORIO>
+   git push -u origin main
+   ```
+
+3. **Compartilhe o repositório**:
+
+   - Compartilhe o link do repositório (ex.: `https://github.com/seu_usuario/ResidenciaTech_PucPR`).
+   - Para download direto do `README.md`, acesse o arquivo no GitHub, clique em "Raw" e compartilhe o link gerado.
+
+**Nota**: Para assistência com Git ou hospedagem em outras plataformas, contate o autor ou consulte a documentação oficial do GitHub.
 
 ---
 
