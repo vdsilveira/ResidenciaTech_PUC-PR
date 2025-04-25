@@ -137,20 +137,8 @@ O script executará todas as etapas sequencialmente, exibindo os resultados de c
 
 ## ✅ Exemplo de Saída
 
-```text
-🔓 Frase correta: A jornada continua no arquivo sombrio. Use AES com chavesegredo e modo de operacao CBC
+![aula final](./aulafinal.png)
 
-📨 Mensagem decifrada: [Conteúdo do arquivo-sombrio.txt]
-
-🔐 xb encontrado: 4
-🔐 Chave secreta K = 5
-
-❌ Dica inválida: dica1.txt
-✅ Dica válida encontrada: dica2.txt
-
-🔑 Usando senha da dica: segredosegredo12
-🏁 Mensagem final decifrada: [Conteúdo da mensagem final]
-```
 
 **Interpretação**:
 - **Passo 1**: Exibe a frase decifrada com Cifra de César.
