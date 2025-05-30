@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/align.h
+stdint.h
+-
+immintrin.h
+-
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/config.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/consts.h
+params.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/params.h
+align.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/align.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/invntt.S
+consts.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/consts.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/ntt.S
+consts.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/consts.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/params.h
+config.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/config.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/pointwise.S
+params.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/params.h
+consts.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/consts.h
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/shuffle.S
+consts.h
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/sig/dilithium/pqcrystals-dilithium_dilithium2_avx2/consts.h
+

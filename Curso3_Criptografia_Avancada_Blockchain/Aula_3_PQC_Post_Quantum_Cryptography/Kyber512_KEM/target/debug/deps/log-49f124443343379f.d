@@ -1,0 +1,10 @@
+/l/disk0/viniciusd/Projetos/Residencia_tecnologica/ResidenciaTech_PUC-PR/Curso3_Criptografia_Avancada_Blockchain/Aula_3_PQC_Post_Quantum_Cryptography/target/debug/deps/liblog-49f124443343379f.rmeta: /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/lib.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/macros.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/serde.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/__private_api.rs
+
+/l/disk0/viniciusd/Projetos/Residencia_tecnologica/ResidenciaTech_PUC-PR/Curso3_Criptografia_Avancada_Blockchain/Aula_3_PQC_Post_Quantum_Cryptography/target/debug/deps/liblog-49f124443343379f.rlib: /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/lib.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/macros.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/serde.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/__private_api.rs
+
+/l/disk0/viniciusd/Projetos/Residencia_tecnologica/ResidenciaTech_PUC-PR/Curso3_Criptografia_Avancada_Blockchain/Aula_3_PQC_Post_Quantum_Cryptography/target/debug/deps/log-49f124443343379f.d: /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/lib.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/macros.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/serde.rs /l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/__private_api.rs
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/lib.rs:
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/macros.rs:
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/serde.rs:
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.27/src/__private_api.rs:

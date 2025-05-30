@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/poly_mod_3_Phi_n.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/poly_mod_q_Phi_n.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/poly_r2_mul.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/poly_rq_mul.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/poly_rq_to_s3.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_126_509_shufbytes.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_15_509_shufbytes.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_1_509_patience.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_252_509_shufbytes.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_30_509_shufbytes.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_3_509_patience.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_63_509_shufbytes.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/square_6_509_patience.s
+
+/l/disk0/viniciusd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/oqs-sys-0.7.2/liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/vec32_sample_iid.s
+

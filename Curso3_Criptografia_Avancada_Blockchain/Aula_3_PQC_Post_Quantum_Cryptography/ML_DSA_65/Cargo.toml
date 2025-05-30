@@ -1,0 +1,7 @@
+[package]
+name = "ML_DSA_65"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oqs = "=0.7"
