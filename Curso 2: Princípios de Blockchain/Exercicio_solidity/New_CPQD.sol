@@ -8,6 +8,7 @@ contract New_CPQD {
     uint256 public round = 0; // Rodada atual
 
     struct BetInfo {
+        bytes32 _hash;
         uint8 number;
         uint8 salt;
         uint256 timestamp;
@@ -27,22 +28,28 @@ contract New_CPQD {
     }
 
     /// @notice Inicia uma nova rodada com número sorteado `n`
-    function commitment(uint8 n) public onlyOwner {
+    function commitment(uint8 n, uint8 s) public onlyOwner {
         require(n > 0 && n <= 100, "O numero deve ser maior que zero e menor ou igual a 100");
 
         round++;
         bets[round] = BetInfo({
-            number: n,
-            salt: uint8(block.timestamp % 256), // Salt simplificado
+            _hash: keccak256(abi.encodePacked(n, s)), // Gera o hash do número e do salt
+            number:0,
+            salt: 0, 
             timestamp: block.timestamp,
             reveal: false
         });
     }
 
     /// @notice Permite que o dono finalize e revele informações rodada atual
-    function finishRound(uint256 r) public onlyOwner {
+    function finishRound(uint256 r, uint8 n, uint8 s  ) public onlyOwner {
         require(r <= round, "Rodada invalida");
         require(!bets[r].reveal, "Rodada ja revelada");
+        require(keccak256(abi.encodePacked(n, s)) == bets[r]._hash, "Hash invalido"); // Verifica se o hash corresponde ao número e salt fornecidos
+
+
+        bets[r].number = n;
+        bets[r].salt = s;
         bets[r].reveal = true;
     }
 
