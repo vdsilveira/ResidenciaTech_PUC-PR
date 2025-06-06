@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-oqs = "=0.7"
+oqs = { version = "0.11.0", default-features = false, features = ["sigs", "ml_dsa"] }
+base64 = "0.22"

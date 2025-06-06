@@ -1,0 +1,29 @@
+# Ignorar diretórios de build do Rust
+**/target/
+
+# Ignorar arquivos de dependência compilados do Rust
+**/Cargo.lock
+
+# Ignorar arquivos de metadados e IDEs
+**/.DS_Store
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# Ignorar a biblioteca clonada manualmente
+liboqs-source/
+
+# Ignorar arquivos de saída e temporários em geral
+*.log
+*.tmp
+*.bak
+*.old
+
+# Ignorar arquivos de terminal ou imagens de demonstração
+*.jpeg
+*.png
+*.jpg
+*.gif
+*.mp4
+
