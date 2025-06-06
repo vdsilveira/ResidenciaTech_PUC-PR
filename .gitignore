@@ -21,7 +21,7 @@ liboqs-source/
 *.old
 
 # Ignorar arquivos de terminal ou imagens de demonstração
-*.jpeg
+
 *.png
 *.jpg
 *.gif
