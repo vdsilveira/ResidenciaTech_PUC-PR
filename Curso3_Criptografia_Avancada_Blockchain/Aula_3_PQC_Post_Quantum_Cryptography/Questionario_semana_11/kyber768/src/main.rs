@@ -4,7 +4,7 @@ use std::fs;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let private_key_path = "../private_key.b64";
-    let ciphertext_path = "../ciphertext (1).b64";
+    let ciphertext_path = "../ciphertext.b64";
 
     let private_key_b64 = fs::read_to_string(private_key_path)?.trim().to_string();
     let ciphertext_b64 = fs::read_to_string(ciphertext_path)?.trim().to_string();
