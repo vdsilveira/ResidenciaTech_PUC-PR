@@ -72,7 +72,7 @@ contract New_CPQD {
     function verifyImWinner(uint256 current_round) public view returns (string memory) {
         require(current_round <= round, "Rodada invalida");
         require(bets[current_round].reveal, "Rodada ainda nao finalizada");
-        require(apostas[msg.sender][current_round] <= 100, "rodada invalida");
+        
 
         if (apostas[msg.sender][current_round] == bets[current_round].number) {
             return "Parabens, voce ganhou!";
