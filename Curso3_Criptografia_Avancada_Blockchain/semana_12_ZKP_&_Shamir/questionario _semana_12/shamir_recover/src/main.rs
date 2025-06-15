@@ -4,6 +4,8 @@ use hex::FromHex;
 use num_bigint::{BigInt, Sign};
 use num_traits::{Zero, One, Num};
 use num_integer::Integer;
+use sha2::{Sha256, Digest};
+
 
 
 const FIELD_PRIME_STR: &str = "7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed"; // 2^255 - 19
@@ -67,14 +69,16 @@ fn main() {
 
     let secret_seed = lagrange_interpolation(&x_s, &y_s);
 
-    let secret = SecretKey::from_bytes(&secret_seed).expect("Erro ao criar SecretKey");
-    println!("{:?}",secret);
+    let mut hasher = Sha256::new();
+    hasher.update(&secret_seed);
+    let seed_hashed = hasher.finalize(); // <- 32 bytes
+
+    let secret = SecretKey::from_bytes(&seed_hashed).expect("Erro ao criar SecretKey");
+       println!("{:?}",secret);
     let public = PublicKey::from(&secret);
-    println!("{:?}",public);
+       println!("{:?}",public);
     let keypair = Keypair { secret, public };
-    
 
     let pub_base64 = general_purpose::STANDARD.encode(keypair.public.as_bytes());
-
     println!("Chave pública Ed25519 (base64): {}", pub_base64);
 }
