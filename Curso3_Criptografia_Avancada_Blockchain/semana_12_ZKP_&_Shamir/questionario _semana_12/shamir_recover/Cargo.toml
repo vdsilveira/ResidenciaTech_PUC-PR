@@ -1,0 +1,12 @@
+[package]
+name = "shamir_recover"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ed25519-dalek = "1.0"
+base64 = "0.21"
+num-bigint = "0.4"
+num-traits = "0.2"
+num-integer = "0.1"
+hex = "0.4"
